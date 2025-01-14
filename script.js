@@ -69,7 +69,7 @@ function createExerciseElement(exercise) {
         setDiv.appendChild(timer);
 
         const startButton = document.createElement('button');
-        startButton.textContent = 'Descansar';
+        startButton.textContent = 'Tempo';
         startButton.classList.add('start');
 
         let timerInterval;
@@ -118,7 +118,7 @@ function loadCategories() {
         categoryDiv.classList.add('exercise-category');
 
         const categoryTitle = document.createElement('h2');
-        categoryTitle.textContent = `Category ${categoryName}`;
+        categoryTitle.textContent = `Categoria ${categoryName}`;
         categoryDiv.appendChild(categoryTitle);
 
         categories[categoryName].forEach(exercise => {
