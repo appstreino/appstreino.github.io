@@ -69,7 +69,7 @@ function createExerciseElement(exercise) {
         setDiv.appendChild(timer);
 
         const startButton = document.createElement('button');
-        startButton.textContent = 'Comece a descansar';
+        startButton.textContent = 'Descansar';
         startButton.classList.add('start');
 
         let timerInterval;
